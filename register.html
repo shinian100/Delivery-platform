@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <mate name="viewport" content="width=device-width,initial-scale=1"/>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/comm.css">
+    <link rel="stylesheet" href="../css/register.css">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+<div class="container-fluid">
+    <div class=" row m-0 background">
+        <div class="col-sm-10">
+            <img src="../images/logo.png" alt="">
+        </div>
+        <div class="col-sm-2">
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="login.html">登录</a></li>
+                <li class="list-inline-item"><a href="register.html">注册</a></li>
+                <li class="list-inline-item"><a href="index.html">首页</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--body-->
+    <div class="row border_top">
+        <div class="col-md-6 border_right">
+            <h2>创建您的账户</h2>
+            <div>
+                <span>注册邮箱：</span><br>
+                <input type="email" placeholder="请输入正确的邮箱">
+            </div>
+            <div>
+                <span>请输入昵称：</span><br>
+                <input type="text" >
+            </div>
+            <div>
+                 <span>请输入密码：</span><br>
+                 <input type="password" placeholder="6-16位以上的字母和数字，字母区分大小写">
+            </div>
+            <div>
+                 <span>请再次输入密码：</span><br>
+                 <input type="password" placeholder="6-16位以上的字母和数字，字母区分大小写">
+            </div>
+            <div>
+                 <span>您的性别：</span>
+                 <input type="radio" checked value="男" name="gender" class="width">男
+                 <input type="radio" value="女" name="gender" class="width">女
+            </div>
+            <div>
+                <span>注册验证码：发送验证码到邮箱</span>
+                <a href="#" class="btn btn-success a_one">发送</a>
+            </div>
+            <div>
+                <input type="text">
+            </div>
+            <div>
+                <input type="radio"  value="agree" name="choose" class="width">
+                <span>我自愿遵守</span>《<a href="#" class="a_three">Aladdin用户使用条款</a>》
+            </div>
+            <div><a href="#" class="btn btn-success a_two">立即注册</a></div>
+        </div>
+        <div class="col-md-6">
+            <div class="text-center">
+              <h5 class="mb-5 mt-5">已注册Aladdin账户</h5>
+              <a href="login.html" class="a_three">立即登陆</a>
+              <h4>合作网站账号一键登陆</h4>
+              <ul class="list-inline">
+                <li class="list-inline-item"><img src="../images/sinas.png" alt=""><h6>新浪微博</h6></li>
+                <li class="list-inline-item"><img src="../images/weixins.png" alt=""><h6>微信</h6> </li>
+                <li class="list-inline-item"><img src="../images/qqzones.png" alt=""><h6>腾讯QQ</h6></li>
+              </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<iframe src="footer.html" frameborder="0" scrolling="no" class="my_footer"></iframe>
+</body>
+</html>
