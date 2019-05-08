@@ -1,0 +1,94 @@
+/*1楼*/
+.container-fluid>div>.text-center>span,.container-fluid>div>div>div>div>span{
+    border-bottom: 3px solid #e25111;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+.container-fluid>div>.text-center{
+    padding-bottom: 1rem;
+}
+/*第二个DIV的上边框*/
+.container-fluid>div>.border_color{
+    border-top:1px solid #cccccc;
+    padding-top: 3rem;
+}
+.border_bottom,.container-fluid>div>div>div>.border_bottom{
+    border-bottom:1px solid #cccccc;
+    margin-bottom: 3rem;
+}
+.container-fluid>div>.border_color>div>.text-center>.padding{
+    padding:1rem 0;
+}
+/*字体*/
+.container-fluid>div>.border_color>div>.text-center>.font_size{
+    font-size:14px;
+}
+.container-fluid>div>.row>div>.bg_color{
+    background-color:#bbbaba;
+    height:33%;
+    text-align: center;
+    padding:3rem;
+    margin-top: 13rem !important;
+}
+/*3楼*/
+.container-fluid>div>div>.margin{
+    margin-bottom: 2rem;
+    margin-left: 10rem;
+    margin-right: 3rem;
+}
+.container-fluid>div>div>div>ul>li>a,.container-fluid>div>div>div>div>ul>li>a{
+    color:#000;
+    font-size:20px;
+    text-decoration: none;
+    padding: 0 2rem;
+}
+.container-fluid>div>div>div>ul{
+    margin-top: 3rem;
+}
+.container-fluid>div>div>div>.text-center>.style{
+    border:1px solid #e25111;
+    color:#e25111;
+    background-color: rgba(0,0,0,0);
+    width:20%;
+    padding:0.5rem 0;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+.container-fluid>div>div>div>div>div>div>a{
+    color:#000;
+    text-decoration: none;
+}
+.container-fluid>div>div>div>div{
+    margin-bottom: 2rem;
+    margin-left: 5rem;
+    margin-right: 3rem;
+}
+/*媒体查询*/
+@media screen and (min-width: 768px) and (max-width: 991px ) {
+    .container-fluid > div > div > .margin {
+        margin-left: 2rem;
+    }
+
+    .container-fluid > div > div > div > div {
+        margin-left: 1rem;
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 767px){
+    .my_header{
+        height:26rem !important;
+    }
+    .container-fluid>div>.row>div>.bg_color{
+        height:33%;
+        text-align: center !important;
+        padding:3rem !important;
+        margin-top: 1rem !important;
+    }
+    .container-fluid > div > div > .margin ,.container-fluid>div>div>div>.margin_left{
+        margin-left: 1rem !important;
+    }
+    .container-fluid>div>div>div>div>ul>li>a {
+        font-size: 17px;
+    }
+}

@@ -1,0 +1,23 @@
+/*背景*/
+.container-fluid {
+    background-color: #2a1e13;
+    padding:0;
+    text-align:center;
+}
+/*字体*/
+.container-fluid>div>ul>li>.color,.container-fluid>div>.p_font>.color{
+    color: #ffffff !important;
+}
+.container-fluid>div>ul>li>.color,.container-fluid>div>.p_font>.color:hover{
+    text-decoration: none;
+}
+.container-fluid >div>ul>.margin-justify{
+    padding:15px 8px;
+}
+.container-fluid >div>.margin-bottom{
+    padding-bottom:10px;
+}
+.container-fluid >div>.p_font{
+    font-weight: lighter;
+    font-size: 13px;
+}

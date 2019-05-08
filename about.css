@@ -1,0 +1,39 @@
+.container>div>span,.container>div>div>span{
+    font-size:30px;
+    font-weight: bold;
+    border-bottom: 3px solid #e25111;
+    padding-bottom: 1rem;
+}
+.container>div,.container>div>div{
+    padding-bottom: 1rem;
+}
+.container>div>.row{
+    border-top:1px solid #cccccc;
+    padding-top: 3rem;
+}
+.container>div>.background{
+    background-color:#bbbaba;
+    padding:1rem;
+    margin-bottom: 3rem;
+}
+.container>div>div>div>div>h2{
+    padding:1rem 0;
+}
+.container>div>.row>div>div>h4{
+     color:#e25111;
+}
+.container>div>.row>div>div>h5{
+    color:#999;
+}
+.container>div>div>div>div>ul>.image1{
+    list-style-image: url("../images/about1.png");
+    margin-bottom: 2rem;
+}
+.container>div>div>div>div>ul>.image2{
+    list-style-image: url("../images/about2.png");
+    margin-bottom: 3rem;
+}
+.container>div>div>div>div>ul>.image3{
+    list-style-image: url("../images/about3.png");
+    margin-bottom: 2rem;
+}

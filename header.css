@@ -1,0 +1,27 @@
+/*1楼*/
+.breadcrumb-item+ .breadcrumb-item::before{
+    content:"|";
+}
+.container-fluid>.row>div>.breadcrumb{
+   background-color:rgba(0,0,0,0);
+}
+.container-fluid>.row>div>.nav-justified>li>a{
+    color:#fff;
+    font-weight: bold;
+}
+.container-fluid>.row{
+    margin-top:2rem !important;
+}
+/*轮播图*/
+.container-fluid>.carousel>.carousel-indicators>li{
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.container-fluid>.carousel>.carousel-indicators>li:active{
+    transform: scale(1.5);
+}
+.container-fluid>.carousel>.carousel-indicators>li:hover{
+    cursor :pointer;
+}

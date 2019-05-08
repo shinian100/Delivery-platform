@@ -1,0 +1,46 @@
+/*头部*/
+.container-fluid>.border_top>.border_right{
+    border-right: 2px solid #666 ;
+}
+/*h2标题*/
+.container-fluid>div>div>h2{
+    margin: 1rem 1rem;
+    color:#00c375;
+}
+/*关于imput的调整*/
+.container-fluid>div>div>div{
+    margin: 1rem 3rem;
+}
+.container-fluid>div>div>div>input{
+  width:80%;
+}
+.container-fluid>div>div>div>.width{
+    width:4%;
+}
+/*button*/
+.container-fluid>div>div>div>.a_one{
+    display: inline-block;
+    width:20%;
+    margin-left: 2rem;
+}
+.container-fluid>div>div>div>.a_two{
+    display: inline-block;
+    width:65%;
+    margin-left: 2rem;
+}
+.container-fluid>div>div>div>.a_three{
+    color:#00c375;
+    text-decoration: none;
+}
+.container-fluid>div>div>div>h4{
+    margin-top: 15rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #000;
+}
+.container-fluid>div>div>div>ul>li{
+    margin: 0 2rem;
+}
+.container-fluid>div>div>div>ul>li>h6{
+    font-size: 0.5rem;
+    font-weight: lighter;
+}

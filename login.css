@@ -1,0 +1,65 @@
+/*网页头部*/
+.container-fluid>.background{
+    background-image: url("../images/about1.jpg");
+    background-repeat: no-repeat;
+    height:5rem;
+    margin-left: 1rem !important;
+}
+.container-fluid>.border_top{
+    border-top: 2px solid #e25111;
+    border-bottom:1px solid #e25111;
+    margin-bottom: 2rem;
+}
+.container-fluid>.background>div>ul{
+    margin-top:2.5rem !important;
+}
+.container-fluid>.background>div>ul>li>a{
+    color:#000;
+    text-decoration: none;
+}
+/*body*/
+.container-fluid>div>div>.padding{
+    padding:2rem 1rem;
+}
+.container-fluid>div>div>div>div>a{
+    color:#00c375;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.container-fluid>div>div>div>.font_size>div{
+    margin: 2rem 0;
+}
+.container-fluid>div>div>div>.font_size>span{
+    font-size: 2rem;
+}
+.container-fluid>div>div>div>.font_size>div>button{
+    width:60%;
+}
+.container-fluid>div>div>div>.font_size>div>a{
+    color:#69F;
+    margin-left: 1rem;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+.breadcrumb-item + .breadcrumb-item::before{
+    content:"|";
+}
+.container-fluid>div>div>div>ul>li>a{
+    color:#000;
+    text-decoration: none;
+    font-size:1rem;
+}
+.container-fluid>div>div>div>.breadcrumb{
+    background-color: rgba(0,0,0,0);
+}
+/*!*媒体查询*!*/
+/*@media screen and (min-width:992px){*/
+    /*.container-fluid>.background>div>ul>li>a {*/
+        /*font-size:1rem;*/
+    /*}*/
+/*}*/
+/*@media screen and (min-width: 768px) and (max-width: 991px ) {*/
+    /*.container-fluid>.background>div>ul>li>a {*/
+        /*font-size:1rem;*/
+    /*}*/
+/*}*/
