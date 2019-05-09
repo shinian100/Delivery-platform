@@ -1,0 +1,168 @@
+/*1楼*/
+/*美食资讯*/
+.container>div>.text-center>span{
+    border-bottom: 3px solid #e25111;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+.container>div>.text-center{
+    padding-bottom: 1rem;
+}
+/*边框*/
+.container>div>.border_color{
+    border-top:1px solid #cccccc;
+    padding-top: 2rem;
+}
+/*2楼*/
+.container>div>div>ul>li>a{
+    color:#000;
+    font-size:20px;
+    text-decoration: none;
+    padding: 0 2rem;
+}
+.container>div>div>ul>li>a>span:hover{
+    color:#e25111;
+    border-bottom: 2px solid #e25111;
+    padding-bottom: 1rem;
+}
+/*图片*/
+.container>div>div>img{
+    margin: 0  0 3rem 0;
+}
+/*列表*/
+.container>div>div>ul>li>div>div>a{
+    text-decoration: none;
+    color:#000;
+}
+.container>div>div>ul>li>div>div{
+    margin: 1rem 0;
+    border-bottom: 1px #b2abab solid;
+}
+.container>div>div>ul>li>div>div>.background{
+    background-color: #e25111;
+}
+.container>div>div>ul>li>div>div>a>h3:hover{
+     color:#e25111;
+}
+.container>div>div>ul>li>div>div>a>p{
+    font-size: 16px;
+    color:#b2abab;
+
+}
+/*分页*/
+.container>div>.pagination{
+    display: block;
+    text-align: center;
+    margin-top: 2rem;
+}
+.container>div>.pagination>.page_one{
+    display: inline-block;
+    border:1px solid #cccccc;
+}
+.container>div>.pagination>.page_two{
+    display: inline-block;
+    border:1px solid #cccccc;
+    outline: none;
+}
+.container>div>.pagination>.page-item>a{
+    color:#000;
+    text-decoration: none;
+    font-weight: bold;
+}
+.container>div>.pagination>.page-item:hover,.container>div>.pagination>.page-item>a:visited{
+    background-color: #e25111;
+    border:1px solid #e25111;
+}
+/*媒体查询*/
+@media screen and (min-width: 1200px){
+    .container>div>div>ul>li>div>div>.background {
+        background-color: #e25111;
+        width: 50%;
+        height: 100%;
+    }
+    .my_header{
+        height:51rem !important;
+    }
+    .container>div>.pagination>.page_one{
+        width:8%;
+    }
+    .container>div>.pagination>.page_two{
+        width:2%;
+    }
+    .container>div>div>ul>li>div>div>a>p{
+        margin: 0;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    .container>div>div>ul>li>div>div>.background {
+        background-color: #e25111;
+        width: 70%;
+        height: 100%;
+    }
+    .container>div>.pagination>.page_one{
+        width:8%;
+    }
+    .container>div>.pagination>.page_two{
+        width:2%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .container>div>div>ul>li>div>div>.background {
+        background-color: #e25111;
+        width: 90%;
+        height: 95%;
+    }
+    .my_header{
+        height:35rem !important;
+    }
+    .container>div>.pagination>.page_one{
+        width:9%;
+    }
+    .container>div>.pagination>.page_two{
+        width:3%;
+    }
+}
+@media screen and (max-width: 767px) and (min-width: 568px){
+    .container>div>div>ul>li>div>div>.background {
+        background-color: #e25111;
+        width: 100%;
+        height: 75%;
+    }
+    .my_header{
+        height:26rem !important;
+    }
+    .container>div>div>ul>li>a{
+       padding:0 1rem;
+    }
+    .container>div>.pagination>.page_one{
+        width:11%;
+    }
+    .container>div>.pagination>.page_two{
+        width:4%;
+    }
+    .container>div>div>ul>li>div>div{
+        margin: 1rem 0;
+        border-bottom: 1px #b2abab dashed;
+    }
+}
+@media screen and (max-width: 567px){
+    .container>div>div>ul>li>a{
+        padding:0;
+    }
+    .container>div>div>ul>li>div>div>.background {
+        background-color: #e25111;
+        width: 100%;
+        height: 80%;
+    }
+    .my_header{
+        height:19rem !important;
+    }
+    .container>div>.pagination>.page_two{
+        width:4%;
+    }
+    .container>div>div>ul>li>div>div{
+        margin: 1rem 0;
+        border-bottom: 1px #b2abab dashed;
+    }
+}

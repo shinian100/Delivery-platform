@@ -1,0 +1,32 @@
+/*1楼*/
+/*美食资讯*/
+.container>div>.text-center>span{
+    border-bottom: 3px solid #e25111;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+.container>div>.text-center{
+    padding-bottom: 1rem;
+}
+/*边框*/
+.container>div>.border_color{
+    border-top:1px solid #cccccc;
+    padding-top: 2rem;
+}
+/*2楼*/
+.container>div>div>ul>li>a{
+    color:#000;
+    font-size:20px;
+    text-decoration: none;
+    padding: 0 2rem;
+}
+.container>div>div>ul>li>a>span:hover{
+    color:#e25111;
+    border-bottom: 2px solid #e25111;
+    padding-bottom: 1rem;
+}
+/*图片*/
+.container>div>div>img{
+    margin: 0  0 3rem 0;
+}
