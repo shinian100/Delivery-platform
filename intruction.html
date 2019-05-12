@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <mate name="viewport" content="width=device-width,initial-scale=1"/>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/intruction.css">
+    <link rel="stylesheet" href="../css/comm.css">
+</head>
+<body>
+<iframe src="header_login.html" frameborder="0" scrolling="no" class="my_header_login"></iframe>
+<div class="container ">
+    <div class="row">
+        <div class="col-sm-3 ">
+            <div>
+                <div><img src="../images/logo.png" alt=""></div>
+                <div><img src="../images/nav2.png" alt=""></div>
+                <p>账号管理</p>
+                <ul>
+                    <li><a href="intruction.html" id="d7">个人资料</a></li>
+                    <li><a href="javaScript:;" id="d6">收货地址</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm-9 ">
+            <div id="d8">
+              <div class="row" >
+                <div class="col-sm-6" >
+                   <h3><a href="javaScript:;" id="d1">基本资料</a></h3>
+                </div>
+                <div class="col-sm-6" >
+                    <h3><a href="javaScript:;" id="d2">头像照片</a></h3>
+                </div>
+            </div>
+              <div id="d3">
+               <div class="m-3">当前头像：<img src="../images/nav2.png" alt=""></div>
+               <pre class="m-3">昵称：     <input type="text" placeholder="请输入"></pre>
+               <pre class="m-3">生日：     <input type="text" placeholder="请输入"></pre>
+               <pre class="m-3">邮箱：     <input type="text" placeholder="请输入正确的邮箱"></pre>
+               <pre class="m-3">密码：     <input type="password" placeholder="请输入6-10数字或者字母的密码"></pre>
+               <pre class="m-3">支付密码： <input type="password" placeholder="请输入6-10数字或者字母的密码"></pre>
+               <div class="m-3">
+                性别：<input type="checkbox" checked name="gender">男
+                <input type="checkbox" name="gender">女
+               </div>
+               <div><a href="javaScript:;" class="btn btn-success">保存</a></div>
+            </div>
+            </div>
+              <div id="d4">
+                <div><img src="../images/img.png" alt="" ><input type="file"></div>
+                <div><img src="../images/about1.jpg" alt=""></div>
+                <div><a href="javaScript:;" class="btn btn-success ">保存</a></div>
+            </div>
+
+            <div id="d5" class="mt-4">
+                <h3 class="mb-3">新增收货地址</h3>
+                <p class="mb-3">电话号码、手机号选填一项，其余均为必填项</p>
+                <div class="mb-1">详细地址：<textarea class="heigth"> 建议您如实填写详细收货地址，例如街道名称，门牌号码，楼层和房间号等信息</textarea></div>
+                <pre>收货人姓名:<input type="text" placeholder="请输入您的姓名"></pre>
+                <pre>电话：     <input type="tel" placeholder="请输入电话号码"></pre>
+                <pre>手机号码： <input type="tel" placeholder="请输入手机号码"></pre>
+                <div class="mb-2">性别：<input type="checkbox" checked name="gender">先生
+                      <input type="checkbox" checked name="gender">女士
+                </div>
+                <div class="mb-2"><input type="radio" value="yes">设为默认收货地址</div>
+                <div class="mb-2"><a href="javaScript:;" class="btn btn-success">保存</a></div>
+            </div>
+        </div>
+    </div>
+</div>
+<iframe src="footer.html" frameborder="0" scrolling="no" class="my_footer"></iframe>
+<script src="../js/intruction.js"></script>
+</body>
+</html>
