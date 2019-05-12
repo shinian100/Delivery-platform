@@ -1,0 +1,55 @@
+
+
+/*文本框*/
+.container>div>div>div>div>pre>input{
+    width:50%;
+}
+.container>div>div>#d5>div>.heigth{
+    height:3rem;
+    font-size: 14px;
+    width:60%;
+    color:#b2abab;
+
+}
+/*按钮*/
+.container>div>div>div>div>div>a,.container>div>div>div>div>a{
+    width:20%;
+    margin-left:10rem;
+    margin-bottom: 3rem;
+}
+.container>div>div>#d4,.container>div>div>#d5{
+    display: none;
+}
+.container>div>div>#d4>div{
+    margin: 2rem 0;
+}
+.container>div>div>#d4>div>input{
+    border:1px solid #00c375;
+    color:#00c375;
+    margin-left: 1rem;
+}
+.container>div>div>#d4>div>a{
+    margin-left:11rem;
+    margin-bottom: 0;
+}
+/*媒体查询*/
+@media screen and (min-width: 992px) {
+    .container>div>div>div>pre>input{
+        width:70%;
+    }
+    .container>div>div>#d5>pre>input{
+        width:60%;
+    }
+
+}
+@media screen and (min-width: 768px) and (max-width: 991px ) {
+    .container>div>div>div>pre>input{
+        width:69%;
+    }
+}
+@media screen and (max-width: 767px){
+    .container>div>div>div>pre>input{
+        width:80%;
+    }
+}
+

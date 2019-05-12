@@ -30,3 +30,61 @@
 .container>div>div>img{
     margin: 0  0 3rem 0;
 }
+.container>p{
+    color:#b2abab;
+}
+.container>div>ul>li>a{
+    color:#b2abab;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+.container>div>ul{
+    margin: 3rem 0;
+}
+/*媒体查询*/
+@media screen and (min-width: 1200px){
+    .my_header{
+        height:51rem !important;
+    }
+}
+/*@media screen and (min-width: 992px) and (max-width: 1199px){*/
+
+/*}*/
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .my_header{
+        height:35rem !important;
+    }
+    .container>h2{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 767px) and (min-width: 568px){
+    .my_header{
+        height:26rem !important;
+    }
+    .container>h2{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .container>.font_size{
+        font-size: 0.5rem;
+    }
+    .container>div>div>ul>li>a{
+        padding:0 1rem;
+    }
+}
+@media screen and (max-width: 567px){
+    .my_header{
+        height:19rem !important;
+    }
+    .container>h2{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .container>.font_size{
+        font-size: 0.5rem;
+    }
+    .container>div>div>ul>li>a{
+        padding:0 0.5rem;
+    }
+}

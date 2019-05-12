@@ -1,0 +1,171 @@
+/*1楼*/
+.container-fluid>div>span{
+    border-bottom: 3px solid #e25111;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+.container-fluid>.text-center{
+    border-bottom:1px solid #cccccc;
+    margin-bottom: 3rem;
+    padding-bottom:1rem;
+}
+.container-fluid>div>div>div>p {
+    background-color: #bbbaba;
+    text-align: center;
+    padding: 3rem;
+}
+/*2楼*/
+.container-fluid>div>div>div>div>div>div>a{
+    color:#000;
+    text-decoration: none;
+    font-weight: bold;
+}
+.container-fluid>div>.row{
+    margin: 1rem 0;
+}
+/*分页*/
+.container-fluid>div>.pagination{
+    display: block;
+    text-align: center;
+    margin-top: 2rem;
+}
+.container-fluid>div>.pagination>.page_one{
+    display: inline-block;
+    border:1px solid #cccccc;
+    width:4%;
+}
+.container-fluid>div>.pagination>.page_two{
+    display: inline-block;
+    border:1px solid #cccccc;
+    width:2%;
+    outline: none;
+}
+.container-fluid>div>.pagination>.page-item>a{
+    color:#000;
+    text-decoration: none;
+    font-weight: bold;
+}
+.container-fluid>div>.pagination>.page-item:hover,.container-fluid>div>.pagination>.page-item>a:visited{
+    background-color: #e25111;
+    border:1px solid #e25111;
+}
+.container-fluid>div>.pagination>.page_one{
+    display: inline-block;
+    border:1px solid #cccccc;
+}
+.container-fluid>div>.pagination>.page_two{
+    display: inline-block;
+    border:1px solid #cccccc;
+    outline: none;
+}
+.container-fluid>div>div>div>div>a>.food_name{
+    display: none;
+    position: absolute;
+    z-index: 2;
+    top: 68%;
+    left:18%;
+}
+.container-fluid>div>div>div>div>a>.food_name>p{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+}
+.container-fluid>div>div>div>div>a>.food_price{
+    display: none;
+    position: absolute;
+    left: 69%;
+    top: 76%;
+    font-size: 34px;
+    font-weight: bold;
+    z-index: 2;
+}
+.container-fluid>div>div>div>div>a>.food_price>p{
+    color: #1daeee;
+}
+.container-fluid>div>div>div>div>a>.background{
+    background: #e25111;
+    opacity: 0.5;
+    position: absolute;
+    z-index: 1;
+
+    display: none;
+}
+.container-fluid>div>div>div>.margin_bottom{
+    margin-bottom: 1rem;
+}
+@media screen and (min-width: 992px){
+    .container-fluid>div>div>div>p {
+        margin-top: 8rem !important;
+        height: 40%;
+    }
+    .container-fluid>div>div>div>div>div>div>a{
+        font-size:1.5rem;
+
+    }
+    .container-fluid>div>.margin{
+        margin: 0 3rem;
+    }
+    .container-fluid>div>.pagination>.page_one{
+        width:8%;
+    }
+    .container-fluid>div>.pagination>.page_two{
+        width:2%;
+    }
+    .container-fluid>div>div>div>div>a>.background{
+        width: 92%;
+        height: 94%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .container-fluid>div>div>div>p {
+        margin-top: 16rem !important;
+        height: 27%;
+    }
+    .my_header{
+        height:34rem !important;
+    }
+    .container-fluid>div>.margin{
+        margin: 0 1rem;
+    }
+    .container-fluid>div>.pagination>.page_one{
+        width:9%;
+    }
+    .container-fluid>div>.pagination>.page_two{
+        width:3%;
+    }
+    .container-fluid>div>div>div>div>a>.background{
+        width: 92%;
+        height: 94%;
+    }
+    .container-fluid>div>div>div>div>a>.food_name{
+        top: 61%;
+        left: 13%;
+    }
+    .container-fluid>div>div>div>div>a>.food_price{
+        top: 61%;
+        left: 62%;
+    }
+}
+@media screen and (max-width: 767px){
+    .container-fluid>div>div>div>p {
+        height: 50%;
+        margin: 0 !important;
+    }
+    .my_header{
+        height:26rem !important;
+    }
+    .container-fluid>div>.margin{
+        margin: 0 ;
+    }
+    .container-fluid>div>.pagination>.page_one{
+        width:11%;
+    }
+    .container-fluid>div>.pagination>.page_two{
+        width:4%;
+    }
+    .container-fluid>div>div>div>div>a>.background{
+        width: 92%;
+        height: 94%;
+    }
+}

@@ -1,0 +1,20 @@
+.container-fluid>div>div>div>h3{
+    color:#e25111;
+}
+.container-fluid>div>div>div>h2{
+    color: #dd0000;
+}
+.container-fluid>div>div>div>div>button{
+    width:5%;
+}
+.container-fluid>div>div>div>div>input{
+    width:15%;
+}
+@media screen and (max-width: 767px){
+   .container-fluid>div>.border_top{
+       border-top:2px solid #e25111;
+   }
+    .container-fluid>div>div>div>div>a{
+        margin-bottom: 2rem;
+    }
+}

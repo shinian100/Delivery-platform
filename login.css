@@ -1,22 +1,4 @@
-/*网页头部*/
-.container-fluid>.background{
-    background-image: url("../images/about1.jpg");
-    background-repeat: no-repeat;
-    height:5rem;
-    margin-left: 1rem !important;
-}
-.container-fluid>.border_top{
-    border-top: 2px solid #e25111;
-    border-bottom:1px solid #e25111;
-    margin-bottom: 2rem;
-}
-.container-fluid>.background>div>ul{
-    margin-top:2.5rem !important;
-}
-.container-fluid>.background>div>ul>li>a{
-    color:#000;
-    text-decoration: none;
-}
+
 /*body*/
 .container-fluid>div>div>.padding{
     padding:2rem 1rem;
@@ -41,6 +23,11 @@
     font-size: 1.1rem;
     text-decoration: none;
 }
+.container-fluid>div>div>div>div>div>.background_a{
+    background-color:#b2abab;
+    text-decoration: none;
+    color:#000;
+}
 .breadcrumb-item + .breadcrumb-item::before{
     content:"|";
 }
@@ -53,13 +40,42 @@
     background-color: rgba(0,0,0,0);
 }
 /*!*媒体查询*!*/
-/*@media screen and (min-width:992px){*/
-    /*.container-fluid>.background>div>ul>li>a {*/
-        /*font-size:1rem;*/
-    /*}*/
+/*@media screen and (min-width: 1200px){*/
+
 /*}*/
-/*@media screen and (min-width: 768px) and (max-width: 991px ) {*/
-    /*.container-fluid>.background>div>ul>li>a {*/
-        /*font-size:1rem;*/
-    /*}*/
-/*}*/
+@media screen and (min-width: 992px) {
+    .container-fluid>div>div>div>div>div>input{
+        width:70%;
+    }
+    .container-fluid>div>div>div>.font_size>div>a{
+        margin: 0;
+    }
+
+}
+@media screen and (min-width: 768px) and (max-width: 991px ) {
+    .container-fluid>div>div>div>div>div>.background_a{
+        font-size: 1rem;
+        padding-top:0.2rem;
+    }
+    .container-fluid>div>div>div>div>div>input{
+        width:69%;
+    }
+    .container-fluid>div>div>.padding{
+        padding:2rem 0;
+    }
+    .container-fluid>div>div>div>.font_size>div>button{
+        width:55%;
+    }
+    .container-fluid>div>div>div>.font_size>div>a{
+        margin: 0;
+    }
+
+}
+@media screen and (max-width: 767px) {
+    .container-fluid>div>div>div>div>div>input{
+        width:80%;
+    }
+    .container-fluid>div>div>div>div>div>.background_a{
+        padding: 0 1rem;
+    }
+}

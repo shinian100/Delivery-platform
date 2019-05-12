@@ -10,8 +10,53 @@
     width:100%;
     height:42rem;
 }
-
+.my_header_login{
+    width:100%;
+    height:6rem;
+}
 .my_footer{
     width:100%;
     height:11rem;
 }
+/*网页头部*/
+.container-fluid>.background{
+    background-image: url("../images/about1.jpg");
+    background-repeat: no-repeat;
+    height:5rem;
+    margin-left: 1rem !important;
+}
+.container-fluid>.background>div>ul{
+    margin-top:2.5rem !important;
+}
+.container-fluid>.background>div>ul>li>a{
+    color:#000;
+    text-decoration: none;
+}
+.container-fluid{
+    border-bottom: 2px solid #e25111;
+    margin-bottom: 2rem;
+}
+
+.breadcrumb-item+ .breadcrumb-item::before{
+    content:"|";
+}
+/*!*媒体查询*!*/
+@media screen and (min-width: 992px) {
+    .container-fluid>.background>div>ul>li>a {
+        font-size:1rem;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px ) {
+    .container-fluid>.background>div>ul>li>a {
+        font-size:1rem;
+    }
+    .container-fluid>div>div>.list-inline>.list-inline-item{
+        margin:0;
+    }
+}
+@media screen and (max-width: 767px) {
+    .container-fluid>div>div>.list-inline>.list-inline-item{
+        margin:0;
+    }
+}
+

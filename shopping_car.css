@@ -1,0 +1,51 @@
+/*1楼*/
+.container>div>a,.container>div>table>tbody>tr>td>a,.container>div>div>.car{
+    text-decoration: none;
+    color:#000;
+    font-size: 1rem;
+}
+.container>div>a{
+    margin: 0 1rem;
+}
+.container>div>.active,.container>div>div>ul>li>a:active,.container>div>a:active{
+    color:#e25111;
+    border-bottom: 3px solid #e25111;
+}
+/*表格*/
+.container>div>table>tbody>tr>td>button{
+    width:20%;
+}
+.container>div>table>tbody>tr>td>input{
+    width:30%;
+}
+
+/*3楼*/
+.container>div>div>span{
+    color:#ef0101;
+}
+.container>div>div>em,.container>div>div>.color{
+    color:#ff6600;
+}
+@media screen and (min-width: 992px){
+    .container>div>table>tbody>tr>td{
+        width:15%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px ) {
+    .container>div>div>ul>li>a, .container>div>a{
+        font-size: 0.7rem;
+        font-weight: bold;
+    }
+}
+@media screen and (max-width: 767px){
+    .container>div>div>ul>li>a{
+        font-size: 0.5rem;
+    }
+    /*.container>div>table>tbody>tr>td{*/
+        /*width:20%;*/
+    /*}*/
+    .container>div>table>tbody>tr>td>button{
+        width:25%;
+    }
+
+}
