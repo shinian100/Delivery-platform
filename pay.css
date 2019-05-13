@@ -1,0 +1,23 @@
+.container-fluid{
+    padding:0 5rem !important;
+}
+.container-fluid>div>.margin_top{
+    margin:3rem 0 3rem 6rem;
+}
+.container-fluid>div>.margin_center{
+    margin:3rem 0 3rem 12rem;
+}
+.container-fluid>div>.margin_bottom{
+    margin:3rem 0 3rem 20rem;
+}
+@media screen and (max-width: 767px){
+    .container-fluid>div>.margin_top{
+        margin:3rem 0 3rem 0;
+    }
+    .container-fluid>div>.margin_center{
+        margin:3rem 0 3rem 3rem;
+    }
+    .container-fluid>div>.margin_bottom{
+        margin:3rem 0 3rem 6rem;
+    }
+}

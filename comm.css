@@ -1,4 +1,4 @@
-*{
+﻿*{
     margin:0;
     padding:0;
 }
@@ -32,7 +32,7 @@
     color:#000;
     text-decoration: none;
 }
-.container-fluid{
+.style{
     border-bottom: 2px solid #e25111;
     margin-bottom: 2rem;
 }
