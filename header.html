@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/comm.css">
 </head>
-<body>
-<div class=" container-fluid p-0">
-    <div class="row fixed-top m-0 " id="d1">
+ <body>
+<div class=" container-fluid p-0 position-relative">
+    <div class="row m-0 w-100" id="d1">
       <div class="col-2 p-0">
         <a href="#" class="float-right">
             <img src="../images/logo.png" alt="">
@@ -24,7 +24,7 @@
             <li class="nav-item"><a href="index.html" class="nav-link pr-0" ><span>网站首页</span></a></li>
             <li class="nav-item"><a href="about.html" class="nav-link pr-0" ><span>关于我们</span></a></li>
             <li class="nav-item"><a href="product.html" class="nav-link pr-0" ><span>菜式欣赏</span></a></li>
-            <li class="nav-item"><a class="nav-link pr-0" href=""><span>美食资讯</span></a></li>
+            <li class="nav-item"><a class="nav-link pr-0" href="foot.html"><span>美食资讯</span></a></li>
         </ul>
       </div>
       <div class="col-1 p-0">
@@ -38,17 +38,18 @@
         <ul class="breadcrumb pt-0 ">
             <li class="breadcrumb-item"><a href="login.html" class="font ">登录</a></li>
             <li class="breadcrumb-item"><a href="register.html" class="font ">免费注册</a></li>
-            <li class="breadcrumb-item"><a href="#" class="font ">购物车</a></li>
-            <li class="breadcrumb-item"><a href="#" class="font ">个人中心</a></li>
+            <li class="breadcrumb-item"><a href="shopping_car.html" class="font ">购物车</a></li>
+            <li class="breadcrumb-item"><a href="intruction.html" class="font ">个人中心</a></li>
         </ul>
       </div>
     </div>
-    <div id="d2" class="fixed-top ">
+    <div id="d2" class="w-100">
         <form action="" method="post">
          <input type="text" placeholder="请输入您的内容" name="keyWord"/>
             <a href="#"><img src="../images/exits.png" alt=""></a>
         </form>
     </div>
+
    <!--轮播图-->
         <div class="carousel " id="demo" data-ride="carousel">
           <div class="carousel-inner">
@@ -62,7 +63,8 @@
             <li data-slide-to="2" data-target="#demo"></li>
           </ul>
        </div>
-    </div>
-<script src="../js/header.js"></script>
+</div>
+<script src="../js/jquery-3.2.1.js"></script>
+<script src="../js/header_top.js"></script>
 </body>
 </html>

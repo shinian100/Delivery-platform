@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="../css/comm.css">
 </head>
 <body>
-<iframe src="header_login.html" frameborder="0" scrolling="no" class="my_header_login"></iframe>
+<header id="header_login"></header>
 <div class="container ">
     <div class="row">
         <div class="col-sm-3 ">
@@ -44,7 +44,7 @@
                <pre class="m-3">密码：     <input type="password" placeholder="请输入6-10数字或者字母的密码"></pre>
                <pre class="m-3">支付密码： <input type="password" placeholder="请输入6-10数字或者字母的密码"></pre>
                <div class="m-3">
-                性别：<input type="checkbox" checked name="gender">男
+                性别：<input type="checkbox"  name="gender">男
                 <input type="checkbox" name="gender">女
                </div>
                <div><a href="javaScript:;" class="btn btn-success">保存</a></div>
@@ -63,8 +63,8 @@
                 <pre>收货人姓名:<input type="text" placeholder="请输入您的姓名"></pre>
                 <pre>电话：     <input type="tel" placeholder="请输入电话号码"></pre>
                 <pre>手机号码： <input type="tel" placeholder="请输入手机号码"></pre>
-                <div class="mb-2">性别：<input type="checkbox" checked name="gender">先生
-                      <input type="checkbox" checked name="gender">女士
+                <div class="mb-2">性别：<input type="checkbox"  name="gender">先生
+                      <input type="checkbox" name="gender">女士
                 </div>
                 <div class="mb-2"><input type="radio" value="yes">设为默认收货地址</div>
                 <div class="mb-2"><a href="javaScript:;" class="btn btn-success">保存</a></div>
@@ -72,7 +72,10 @@
         </div>
     </div>
 </div>
-<iframe src="footer.html" frameborder="0" scrolling="no" class="my_footer"></iframe>
+<footer id="footer"></footer>
+<script src="../js/jquery-3.2.1.js"></script>
+<script src="../js/footer.js"></script>
+<script src="../js/header_login.js"></script>
 <script src="../js/intruction.js"></script>
 </body>
 </html>
